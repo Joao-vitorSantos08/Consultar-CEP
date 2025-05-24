@@ -9,9 +9,27 @@
     <meta property="og:title" content="Consultar CEP">
     <meta property="og:description" content="Projeto simples para consultar informações de endereço a partir do CEP">
     <link rel="icon" href="./src/assets/image/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <script src="/src/js/script.js" defer></script>
     <title>Consultar CEP</title>
 </head>
 <body>
-    
+
+    <div class="container">
+    <h1>🔍 Consulta de CEP</h1>
+
+    <form id="cep-form">
+      <input  type="text" id="input_cep" placeholder="Digite o CEP" maxlength="9" required/>
+      <button type="submit" id="btn-cep">Buscar</button>
+    </form>
+
+    <div class="resultado" id="resultado">
+      <p><strong>Logradouro:</strong> <span id="logradouro">--</span></p>
+      <p><strong>Bairro:</strong> <span id="bairro">--</span></p>
+      <p><strong>Região:</strong> <span id="regiao">--</span></p>
+      <p><strong>Estado:</strong> <span id="estado">--</span></p>
+    </div>
+  </div>
+  
 </body>
 </html>

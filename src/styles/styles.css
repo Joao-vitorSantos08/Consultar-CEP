@@ -4,3 +4,66 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  body{
+    background: linear-gradient(135deg, #2196f3, #a5d6a7 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+    .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+   
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+    input[type="text"] {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+
+    button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+   button:hover {
+    background-color: lightblue;
+  }
+  
+    
+  .resultado {
+    margin-top: 25px;
+    text-align: left;
+  }
+
+   .resultado p {
+    margin: 8px 0;
+  }
