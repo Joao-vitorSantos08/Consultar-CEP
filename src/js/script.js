@@ -7,7 +7,7 @@ const estado = document.getElementById("estado")
 btnCep.addEventListener("click", function(event){
 
     event.preventDefault()
-    let cep = document.getElementById("input_cep").value
+    let cep = document.getElementById("input_cep").value.trim();
     fetch(`https://viacep.com.br/ws/${cep}/json/`)
         .then((res) => res.json())
         .then((data) => {
