@@ -46,7 +46,7 @@ Este projeto foi desenvolvido junto com meu professor como parte dos estudos em 
 
 - **HTML**: Estruturação do conteúdo e elementos da página.  
 - **CSS**: Estilização e layout responsivo.  
-- **JavaScript**: Código responsável por buscar conselhos na API quando o usuário clica no botão..  
+- **JavaScript**: Usado para buscar dados de endereço a partir de um CEP digitado pelo usuário, utilizando `fetch` para consumir uma API e exibir as informações na tela. 
 - **Git**: Sistema de controle de versão para gerenciamento de alterações no código.  
 - **GitHub**: Plataforma de hospedagem para o repositório do projeto.
 
