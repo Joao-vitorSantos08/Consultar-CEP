@@ -19,7 +19,7 @@ Este projeto foi desenvolvido junto com meu professor como parte dos estudos em 
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](Thumbnail.png.png)
+![Mobile1](thumbnail-CEP.png)
 
 ---
 
